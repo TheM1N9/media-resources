@@ -9,19 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "katex": "^0.16.21",
+    "next": "15.1.6",
+    "next-auth": "^4.24.11",
+    "notion-client": "^7.1.6",
+    "notion-types": "^7.1.6",
+    "notion-utils": "^7.1.6",
+    "prismjs": "^1.29.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.6"
+    "react-notion-x": "^7.2.6"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.4.20",
     "eslint": "^9",
     "eslint-config-next": "15.1.6",
-    "@eslint/eslintrc": "^3"
+    "postcss": "^8",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5"
   }
 }
